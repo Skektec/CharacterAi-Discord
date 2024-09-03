@@ -3,6 +3,24 @@ An unofficial method of relaying Character.Ai chats through to a discord chat.
 
 # Setup
 
+1. Clone the repo.
+2. Navigate to the folder and run npm i. (You may need to install nodejs if it is not already installed.)
+3. Before running you will need to create a .env file for tokens and such.
+ - Make a file named .env in the folder that the releaseVX.js is located in.
+ - Inside that folder we need 4 fields: CHARAI_TOKEN, CHARACTER_ID, DISCORD_CHANNEL_ID and DISCORD_TOKEN. Setup like the following
+```
+CHARAI_TOKEN=
+CHARACTER_ID=
+DISCORD_CHANNEL_ID=
+DISCORD_TOKEN=
+````
+ - Get your CHARAI_TOKEN by following these steps: https://github.com/Skektec/CharacterAi-Discord?tab=readme-ov-file#finding-your-token-id
+ - Get your CHARACTER_ID by copying the value after https://character.ai/chat/ when in the chat you would like to bring over to discord.
+ - To get the DISCORD_CHANNEL_ID by doing the following, in this case it doesnt really matter which channel as far as I can tell. ![image](https://github.com/user-attachments/assets/5a4eb1fd-f070-4616-a7e2-5e9dba807373)
+ - Finally get the DISCORD_TOKEN in the Discord Developer portal > Applications > {Your Application} > Bot. You may need to reset it.
+4. Now you can run by typing ``` node releaseVX.js ```, X being the version.
+
+
 ## Finding your Token ID
 
 1. Navigate to https://old.character.ai in your browser
