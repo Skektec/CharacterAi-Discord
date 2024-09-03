@@ -3,7 +3,7 @@ An unofficial method of relaying Character.Ai chats through to a discord chat.
 
 # Finding your Token ID
 
-1. Navigate to old.character.ai in your browser
+1. Navigate to https://old.character.ai in your browser
 2. Open the developer tools F12 and go to the Application tab.
 3. Go to the Storage section and click on Local Storage > https://old.character.ai.
 4. Look for char_token which should contain: ttl:XXXXXXX value:"".
