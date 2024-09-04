@@ -7,7 +7,7 @@ An unofficial method of relaying Character.Ai chats through to a discord chat.
 2. Navigate to the folder and run ```npm i```. (You may need to install nodejs if it is not already installed.)
 3. Before running you will need to create a .env file for tokens and such.
  - Make a file named .env in the folder that the releaseVX.js is located in.
- - Inside that folder we need 4 fields: CHARAI_TOKEN, CHARACTER_ID, DISCORD_CHANNEL_ID and DISCORD_TOKEN. Setup like the following
+ - Inside that folder we need 4 fields: CHARAI_TOKEN, CHARACTER_ID, DISCORD_CHANNEL_ID and DISCORD_TOKEN. Setup like the following;
 ```
 CHARAI_TOKEN=
 CHARACTER_ID=
