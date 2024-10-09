@@ -17,7 +17,7 @@ DISCORD_TOKEN=
  - Get your CHARAI_TOKEN by following these steps: https://github.com/Skektec/CharacterAi-Discord?tab=readme-ov-file#finding-your-token-id
  - Get your CHARACTER_ID by copying the value after https://character.ai/chat/ when in the chat you would like to bring over to discord.
  - To get the DISCORD_CHANNEL_ID by doing the following, in this case it doesnt really matter which channel as far as I can tell.
- ![image](https://github.com/user-attachments/assets/5a4eb1fd-f070-4616-a7e2-5e9dba807373)
+![image](https://github.com/user-attachments/assets/5a4eb1fd-f070-4616-a7e2-5e9dba807373)
  - Finally get the DISCORD_TOKEN in the Discord Developer portal > Applications > {Your Application} > Bot. You may need to reset it.
 4. Now you can run by typing ``` node releaseVX.js ```, X being the version.
 
