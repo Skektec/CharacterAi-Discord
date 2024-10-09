@@ -37,8 +37,9 @@ If this doesn't work make an issue, Character.ai seems to move it around occasio
 
 ## Release-V2
 
-This one takes a bit of setup but overall is the best I currently have once completly setup. Due to it requiring each username and the corresponding user ID it can't really be used on large servers.
-I'm working on a V3 to fix this issue but it's in a semi-working state and on hold as I complete finals.
+This one takes a bit of setup but overall is the best I currently have once completly setup. If you want the bot to understand a ping of itself, other bots and other users you will need to manually enter the name and user_id. This is because it is picked up as just a user id currently which is then passed to the bot. 
+
+This means the bot sees "XXXXXXX: Hi" or "XXXXX: Say hello to XXXXXX", the X's being user id's. Inside the code you will find comments that instruct how to add user names for bot to understand. This isn't really necessary but can help when the bot talks to other bots and when it sees a ping.
 
 ## Troubleshooting
 
