@@ -24,12 +24,15 @@ DISCORD_TOKEN=
 
 ## Finding your Token ID
 
-1. Navigate to https://old.character.ai in your browser
-2. Open the developer tools F12 and go to the Application tab.
-3. Go to the Storage section and click on Local Storage > https://old.character.ai.
-4. Look for char_token which should contain: ttl:XXXXXXX value:"".
-5. Copy the key inside the "" from the value: area.
-6. Stick it in a .env file located in the same folder as the .js file. (Make sure its written as CHARAI_TOKEN={yourTokenID})
+1. Navigate to https://old.character.ai in your browser, it will redirect you but that is intentional.
+2. Open the developer tools F12 and go to the Network tab.
+3. Scroll all the way to the top till you find an entry named beta.character.ai:
+<img width="887" alt="Screenshot 2024-10-09 at 19 48 30" src="https://github.com/user-attachments/assets/f35389e9-e615-413a-ae1d-c8220d706afc">
+5. Click on the name and a window will open.
+6. We're looking in the cookies tab for an entry named "HTTP_AUTHORIZATION"
+7. Next to that entry there is a coloumn that has "Token XXXXXX", we want the value written after Token.
+
+If this doesn't work make an issue, Character.ai seems to move it around occasionally.
 
 ## Release-V2
 
