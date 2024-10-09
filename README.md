@@ -41,6 +41,10 @@ This one takes a bit of setup but overall is the best I currently have once comp
 
 This means the bot sees "XXXXXXX: Hi" or "XXXXX: Say hello to XXXXXX", the X's being user id's. Inside the code you will find comments that instruct how to add user names for bot to understand. This isn't really necessary but can help when the bot talks to other bots and when it sees a ping.
 
+## Beta-V3
+
+Unlike V2 this should work right out of the gate. I had it marked as in "semi-working" state but after running brief tests it seemed fine. I'm leaving it as beta just incase I notice issues but I do still recommened it.
+
 ## Troubleshooting
 
 - One of the biggest issues I ran into was the authentication key not working correctly. From what I can tell it doesn't like being used by 2 devices at the same time but that's just a guess.
