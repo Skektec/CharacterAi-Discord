@@ -28,6 +28,7 @@ DISCORD_TOKEN=
 2. Open the developer tools F12 and go to the Network tab.
 3. Scroll all the way to the top till you find an entry named beta.character.ai:
 <img width="887" alt="Screenshot 2024-10-09 at 19 48 30" src="https://github.com/user-attachments/assets/f35389e9-e615-413a-ae1d-c8220d706afc">
+
 5. Click on the name and a window will open.
 6. We're looking in the cookies tab for an entry named "HTTP_AUTHORIZATION"
 7. Next to that entry there is a coloumn that has "Token XXXXXX", we want the value written after Token.
