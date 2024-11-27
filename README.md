@@ -22,7 +22,7 @@ DISCORD_TOKEN=
 4. Now you can run by typing ``` node releaseVX.js ```, X being the version.
 
 
-## Finding your Token ID
+## Finding your Token ID (It's been moved. I will have to find where too.)
 
 1. Navigate to https://old.character.ai in your browser, it will redirect you but that is intentional.
 2. Open the developer tools F12 and go to the Network tab.
